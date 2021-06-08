@@ -2,3 +2,5 @@
 "use strict";
 
 const calcSum = sum => 20 + 1;
+
+console.log(calcSum(10));
