@@ -118,4 +118,14 @@ const reversed = function (arr) {
   }
   return r;
 };
-console.log(reversed([temperatures]));
+console.log(reversed(temperatures));
+
+const f = function (arr, elem) {
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    if (element === elem) return true;
+  }
+  return false;
+};
+
+console.log(f(temperatures, 100));
